@@ -31,14 +31,23 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-ui-0.4.33.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/rpg-launcher/main/mods/jooyoung-ui-0.4.33.jar",
-      "sha1": "a657e4553c3921c04309d794bb78fd484f8f4d87"
+      "name": "jooyoung-ui-0.4.35.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/rpg-launcher/main/mods/jooyoung-ui-0.4.35.jar",
+      "sha1": "07198abfd4868d775f1c066caa50d45bdd7c02a8"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/rpg-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.4.35",
+      "text": "작은 글자가 더 또렷해졌어요",
+      "details": [
+        "채팅 글자가 더 크고 줄 간격이 넓어졌어요",
+        "상점 글자가 덜 깨져 보여요",
+        "상품 정보 창의 이름과 보유 위치가 바뀌었어요"
+      ]
+    },
     {
       "date": "0.4.33",
       "text": "상점 틀이 더 예뻐졌어요",
@@ -80,16 +89,6 @@
         "서버가 이상한 값을 보내도 게임이 꺼지지 않게 고쳤어요",
         "불필요한 파일 읽기와 계산을 줄였어요",
         "모드 용량이 약 5MB 줄었어요"
-      ]
-    },
-    {
-      "date": "0.4.25",
-      "text": "새 메뉴창(Tab)과 상단바 핑 표시",
-      "details": [
-        "Tab 키를 누르면 새 메뉴창이 열려요 (다시 누르면 닫혀요)",
-        "장비·가방·잡화상점·이동·랭킹·설정을 한곳에서 열 수 있고, 접속자와 핑도 볼 수 있어요",
-        "상단바에 핑(응답 속도) 칸이 생겼어요",
-        "채팅창 틀 모서리 장식이 새로워졌어요"
       ]
     }
   ]
