@@ -29,13 +29,7 @@
     "immediatelyfast",
     "dynamic-fps"
   ],
-  "customMods": [
-    {
-      "name": "jooyoung-ui-0.4.35.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-ui-0.4.35.jar",
-      "sha1": "07198abfd4868d775f1c066caa50d45bdd7c02a8"
-    }
-  ],
+  "customMods": [],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
