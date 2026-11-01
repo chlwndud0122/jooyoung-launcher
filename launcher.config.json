@@ -31,14 +31,22 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-ui-0.4.29.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/rpg-launcher/main/mods/jooyoung-ui-0.4.29.jar",
-      "sha1": "81d25916d721d20b1cfd677f94b8bebaa42daefb"
+      "name": "jooyoung-ui-0.4.30.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/rpg-launcher/main/mods/jooyoung-ui-0.4.30.jar",
+      "sha1": "d485b34cdd3d5b074a5cb2c503ded3f8c5e56a36"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/rpg-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.4.30",
+      "text": "창 틀이 더 깔끔해졌어요",
+      "details": [
+        "메뉴창·채팅창 틀의 얼룩이 없어졌어요",
+        "상단바 바탕 무늬가 늘어나도 번지지 않아요"
+      ]
+    },
     {
       "date": "0.4.29",
       "text": "새 디자인이 적용됐어요",
@@ -82,16 +90,6 @@
         "T를 누르면 접어 둔 채팅창도 항상 펼쳐져서 바로 쓸 수 있어요",
         "Alt를 누르고 펼치기 버튼을 누르면 지난 글까지 보여요",
         "Alt를 누른 채 마우스 휠로 지난 글을 볼 수 있어요"
-      ]
-    },
-    {
-      "date": "0.4.22",
-      "text": "채팅창이 더 편해졌어요",
-      "details": [
-        "채팅 탭 줄이 평소에도 항상 보여요",
-        "접기 버튼을 누르면 채팅 입력도 같이 닫혀서 바로 움직일 수 있어요",
-        "Alt를 누르고 있으면 탭 줄을 눌러서 쓸 수 있어요",
-        "채팅창 기본 위치가 위쪽 바 바로 아래로 바뀌었어요"
       ]
     }
   ]
