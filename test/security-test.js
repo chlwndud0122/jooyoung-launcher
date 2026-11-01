@@ -34,11 +34,11 @@ check('normal game log is untouched', redact('[Render thread/INFO]: Loaded 1470 
   check('access url accepted', RULES.accessUrl('http://161.33.209.62:25580/access'));
   check('access url rejects other schemes', !RULES.accessUrl('file:///C:/x') && !RULES.accessUrl('javascript:alert(1)'));
   // Our own mods: only our repo, pinned sha1, plain .jar names
-  const okMod = { name: 'jooyoung-ui-0.1.0.jar', url: 'https://raw.githubusercontent.com/chlwndud0122/rpg-launcher/main/mods/jooyoung-ui-0.1.0.jar', sha1: 'a'.repeat(40) };
+  const okMod = { name: 'jooyoung-ui-0.1.0.jar', url: 'https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-ui-0.1.0.jar', sha1: 'a'.repeat(40) };
   check('own mod accepted', RULES.customMods([okMod]));
-  check('own mod rejects other host', !RULES.customMods([{ ...okMod, url: 'https://evil.com/chlwndud0122/rpg-launcher/main/x.jar' }]));
+  check('own mod rejects other host', !RULES.customMods([{ ...okMod, url: 'https://evil.com/chlwndud0122/jooyoung-launcher/main/x.jar' }]));
   check('own mod rejects other repo', !RULES.customMods([{ ...okMod, url: 'https://raw.githubusercontent.com/someone/else/main/x.jar' }]));
-  check('own mod rejects path tricks', !RULES.customMods([{ ...okMod, url: 'https://raw.githubusercontent.com/chlwndud0122/rpg-launcher/../../x.jar' }]) && !RULES.customMods([{ ...okMod, url: 'https://raw.githubusercontent.com/chlwndud0122/rpg-launcher/main/%2e%2e/x.jar' }]));
+  check('own mod rejects path tricks', !RULES.customMods([{ ...okMod, url: 'https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/../../x.jar' }]) && !RULES.customMods([{ ...okMod, url: 'https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/%2e%2e/x.jar' }]));
   check('own mod rejects http', !RULES.customMods([{ ...okMod, url: okMod.url.replace('https', 'http') }]));
   check('own mod rejects bad sha1', !RULES.customMods([{ ...okMod, sha1: 'xyz' }]));
   check('own mod rejects bad file names', !RULES.customMods([{ ...okMod, name: '../evil.jar' }]) && !RULES.customMods([{ ...okMod, name: 'run.exe' }]));

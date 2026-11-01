@@ -8,7 +8,7 @@
 - 설정과 런처 자체가 자동으로 업데이트돼요
 
 ## 친구들: 설치 방법
-[최신 릴리스](https://github.com/chlwndud0122/rpg-launcher/releases/latest)에서 `RPG-Launcher-Setup.exe`를 받아 실행하세요.
+[최신 릴리스](https://github.com/chlwndud0122/jooyoung-launcher/releases/latest)에서 `Jooyoung-Launcher-Setup.exe`를 받아 실행하세요.
 
 ## 서버 관리자: 설정 바꾸기
 `launcher.config.json` 파일만 고치면 돼요. 친구들 런처는 다음에 켤 때 바로 새 설정을 적용해요(최대 5분 정도 걸릴 수 있어요).
@@ -26,7 +26,7 @@ npm install
 npm start          # 런처 실행
 npm run dist       # 설치 파일 만들기 (dist/)
 ```
-런처 자체를 업데이트하려면 `package.json`의 `version`을 올리고 빌드한 뒤, `dist/`의 `RPG-Launcher-Setup.exe`, `.blockmap`, `latest.yml`을 GitHub 릴리스에 올리면 돼요.
+런처 자체를 업데이트하려면 `package.json`의 `version`을 올리고 빌드한 뒤, `dist/`의 `Jooyoung-Launcher-Setup.exe`, `.blockmap`, `latest.yml`을 GitHub 릴리스에 올리면 돼요.
 
 ## 보안
 - 로그인 정보는 Windows 암호화(DPAPI)로 저장돼요. 기록 파일(`launcher-log.txt`)에는 로그인 토큰이 남지 않아요.

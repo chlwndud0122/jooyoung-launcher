@@ -10,11 +10,11 @@ const { redact, applySafeConfig } = require('./core/safe');
 const { pingServer } = require('./core/status');
 
 // Keep the settings folder from before the rename, so nobody has to log in again.
-app.setPath('userData', path.join(app.getPath('appData'), 'RPG Launcher'));
+app.setPath('userData', path.join(app.getPath('appData'), 'Jooyoung Launcher'));
 
 if (!app.requestSingleInstanceLock()) app.quit();
 
-const GAME_DIR = path.join(app.getPath('appData'), '.rpg-launcher');
+const GAME_DIR = path.join(app.getPath('appData'), '.jooyoung-launcher');
 const ACCOUNT_FILE = path.join(app.getPath('userData'), 'account.dat');
 const LOG_FILE = path.join(GAME_DIR, 'launcher-log.txt');
 const SETTINGS_FILE = path.join(app.getPath('userData'), 'settings.json');
@@ -107,7 +107,7 @@ async function loadConfig() {
 // ---------- launcher self-update (GitHub Releases) ----------
 let updateReady = false;
 function setupAutoUpdate() {
-  if (!app.isPackaged || process.env.RPG_LAUNCHER_NO_UPDATE) return;
+  if (!app.isPackaged || process.env.JOOYOUNG_LAUNCHER_NO_UPDATE) return;
   const { autoUpdater } = require('electron-updater');
   autoUpdater.autoDownload = true;
   autoUpdater.autoInstallOnAppQuit = true; // installs quietly when the launcher is closed
@@ -246,13 +246,13 @@ app.whenReady().then(() => {
   session.defaultSession.setPermissionCheckHandler(() => false);
   createWindow();
   setupAutoUpdate();
-  if (process.env.RPG_LAUNCHER_SELFTEST) runSelfTest();
+  if (process.env.JOOYOUNG_LAUNCHER_SELFTEST) runSelfTest();
 });
 
-// Developer self-test (only runs when the RPG_LAUNCHER_SELFTEST env var is set):
+// Developer self-test (only runs when the JOOYOUNG_LAUNCHER_SELFTEST env var is set):
 // boots the packaged app with an offline test account and reports what happened.
 async function runSelfTest() {
-  const out = process.env.RPG_LAUNCHER_SELFTEST;
+  const out = process.env.JOOYOUNG_LAUNCHER_SELFTEST;
   const say = m => fs.appendFileSync(out, m + '\n');
   try {
     await new Promise(r => win.webContents.once('did-finish-load', r));
@@ -261,10 +261,10 @@ async function runSelfTest() {
     fs.writeFileSync(out.replace(/\.txt$/, '.png'), shot.toPNG());
     const { Authenticator } = require('minecraft-launcher-core');
     const config = await loadConfig();
-    if (process.env.RPG_LAUNCHER_SERVER) config.serverAddress = process.env.RPG_LAUNCHER_SERVER;
+    if (process.env.JOOYOUNG_LAUNCHER_SERVER) config.serverAddress = process.env.JOOYOUNG_LAUNCHER_SERVER;
     const t0 = Date.now();
     const { proc, done } = await prepareAndLaunch({
-      root: process.env.RPG_LAUNCHER_GAMEDIR || GAME_DIR,
+      root: process.env.JOOYOUNG_LAUNCHER_GAMEDIR || GAME_DIR,
       config,
       auth: await Authenticator.getAuth('TestPlayer'),
       report: s => say(`[${((Date.now() - t0) / 1000).toFixed(0)}s] ${s.step}`),

@@ -7,7 +7,7 @@ const assert = require('assert');
 const { ensureServerEntry, ensureServerEntries, readNbt, writeNbt } = require('../core/servers');
 const { removeOldVersions } = require('../core/cleanup');
 
-const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'rpg-launcher-test-'));
+const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'jooyoung-launcher-test-'));
 const servers = root => {
   const list = readNbt(fs.readFileSync(path.join(root, 'servers.dat'))).find(([n]) => n === 'servers')[1].value.items;
   return list.map(e => Object.fromEntries(e.map(([k, t]) => [k, t.value])));

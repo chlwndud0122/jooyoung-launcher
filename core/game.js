@@ -92,7 +92,7 @@ async function prepareAndLaunch({ root, config, auth, memoryGB = 'auto', servers
   // Show our server in the in-game multiplayer list too.
   if (server) {
     try {
-      const list = Array.isArray(servers) && servers.length ? servers : [{ name: config.serverName || 'RPG 서버', address: server }];
+      const list = Array.isArray(servers) && servers.length ? servers : [{ name: config.serverName || '히페리아', address: server }];
       ensureServerEntries(root, list);
     } catch (e) {
       onLog('[launcher] server list not updated: ' + (e?.message || e));
@@ -105,7 +105,7 @@ async function prepareAndLaunch({ root, config, auth, memoryGB = 'auto', servers
     version: { number: mc, type: 'release', custom: fabricId },
     memory: memoryFor(memoryGB),
     overrides: { detached: false, maxSockets: 16 },
-    launcherName: 'rpg-launcher',
+    launcherName: 'jooyoung-launcher',
   };
   if (server) opts.quickPlay = { type: 'multiplayer', identifier: server };
 

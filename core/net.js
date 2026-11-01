@@ -5,7 +5,7 @@ const crypto = require('crypto');
 const { Readable } = require('stream');
 const { pipeline } = require('stream/promises');
 
-const UA = 'RPG-Launcher/1.0 (private friends server launcher)';
+const UA = 'Jooyoung-Launcher/1.0 (private friends server launcher)';
 
 // A "not found"-style answer (HTTP 4xx) won't change on a retry, so give up at once.
 function httpError(res, url) {

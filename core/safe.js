@@ -51,8 +51,8 @@ const RULES = {
   // Plain http is allowed because it only answers "which servers", nothing secret.
   accessUrl: v => typeof v === 'string' && /^https?:\/\/[a-z0-9]([a-z0-9.-]{0,251}[a-z0-9])?(:\d{1,5})?\/[a-z0-9/_-]{0,64}$/i.test(v),
 };
-// Files we host ourselves: https://raw.githubusercontent.com/chlwndud0122/rpg-launcher/...
-const OWN_REPO_PREFIX = '/chlwndud0122/rpg-launcher/';
+// Files we host ourselves: https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/...
+const OWN_REPO_PREFIX = '/chlwndud0122/jooyoung-launcher/';
 function isOwnRepoUrl(v) {
   if (typeof v !== 'string' || v.length > 300 || /\.\.|%|\\/.test(v)) return false;
   try {
