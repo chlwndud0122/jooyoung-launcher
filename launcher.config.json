@@ -31,14 +31,22 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-ui-0.4.31.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/rpg-launcher/main/mods/jooyoung-ui-0.4.31.jar",
-      "sha1": "a559da60b812670afd48dc1c1fe6a445e93f2a73"
+      "name": "jooyoung-ui-0.4.33.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/rpg-launcher/main/mods/jooyoung-ui-0.4.33.jar",
+      "sha1": "a657e4553c3921c04309d794bb78fd484f8f4d87"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/rpg-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.4.33",
+      "text": "상점 틀이 더 예뻐졌어요",
+      "details": [
+        "상점 제목줄에 금색 선과 마름모가 생겼어요",
+        "보유 재화 코인이 선명해졌어요"
+      ]
+    },
     {
       "date": "0.4.31",
       "text": "상점이 새 디자인으로 바뀌었어요",
@@ -82,14 +90,6 @@
         "장비·가방·잡화상점·이동·랭킹·설정을 한곳에서 열 수 있고, 접속자와 핑도 볼 수 있어요",
         "상단바에 핑(응답 속도) 칸이 생겼어요",
         "채팅창 틀 모서리 장식이 새로워졌어요"
-      ]
-    },
-    {
-      "date": "0.4.24",
-      "text": "Alt를 누르면 채팅 입력칸이 보여요",
-      "details": [
-        "Alt를 누르면 채팅창 아래에 입력칸이 나와요",
-        "입력칸을 누르면 바로 채팅을 칠 수 있어요"
       ]
     }
   ]
