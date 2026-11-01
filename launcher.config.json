@@ -31,14 +31,23 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-ui-0.4.26.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/rpg-launcher/main/mods/jooyoung-ui-0.4.26.jar",
-      "sha1": "b8930c5854b1b7ae721e53260a80af9cc76cb0d8"
+      "name": "jooyoung-ui-0.4.29.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/rpg-launcher/main/mods/jooyoung-ui-0.4.29.jar",
+      "sha1": "81d25916d721d20b1cfd677f94b8bebaa42daefb"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/rpg-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.4.29",
+      "text": "새 디자인이 적용됐어요",
+      "details": [
+        "툴팁·강화창·팝업 틀에 새 꺾쇠 모양이 들어갔어요",
+        "Tab 메뉴창 바탕에 은은한 무늬가 생겼어요",
+        "상점 제목 글자가 굵은 금색으로 바뀌었어요"
+      ]
+    },
     {
       "date": "0.4.26",
       "text": "게임이 더 안정적이고 가벼워졌어요",
@@ -83,14 +92,6 @@
         "접기 버튼을 누르면 채팅 입력도 같이 닫혀서 바로 움직일 수 있어요",
         "Alt를 누르고 있으면 탭 줄을 눌러서 쓸 수 있어요",
         "채팅창 기본 위치가 위쪽 바 바로 아래로 바뀌었어요"
-      ]
-    },
-    {
-      "date": "0.4.21",
-      "text": "설정창이 다시 보여요",
-      "details": [
-        "설정창 첫 화면의 글자와 항목이 다시 나와요",
-        "캐릭터 정보 창 이름 줄의 글자 높이를 맞췄어요"
       ]
     }
   ]
