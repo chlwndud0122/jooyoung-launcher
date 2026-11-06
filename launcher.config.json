@@ -28,10 +28,24 @@
     "immediatelyfast",
     "dynamic-fps"
   ],
-  "customMods": [],
+  "customMods": [
+    {
+      "name": "jooyoung-server-mods-0.3.5.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.3.5.jar",
+      "sha1": "c01abf1c3bec4ad383ca1098fc5612231b5feeb2"
+    }
+  ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.3.5",
+      "text": "새 메뉴창(Tab)과 화면 HUD가 새로 나왔어요",
+      "details": [
+        "Tab 키로 새 메뉴창이 열려요 (다시 누르면 닫혀요)",
+        "체력·마나·경험치 바와 핫바 모양이 바뀌었어요"
+      ]
+    },
     {
       "date": "1.0.0",
       "text": "주영런처가 새로 시작해요",
