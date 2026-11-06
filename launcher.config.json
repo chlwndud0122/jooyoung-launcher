@@ -30,14 +30,22 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.3.5.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.3.5.jar",
-      "sha1": "c01abf1c3bec4ad383ca1098fc5612231b5feeb2"
+      "name": "jooyoung-server-mods-0.3.7.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.3.7.jar",
+      "sha1": "3cb7fb8f7b04bc0953669edbad798b340f5fb416"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.3.7",
+      "text": "보조손 칸이 생기고, 효과 있는 칸만 보여요",
+      "details": [
+        "핫바 왼쪽에 보조손 칸이 생겼어요",
+        "효과가 없으면 빈 효과 칸은 안 보여요"
+      ]
+    },
     {
       "date": "0.3.5",
       "text": "새 메뉴창(Tab)과 화면 HUD가 새로 나왔어요",
