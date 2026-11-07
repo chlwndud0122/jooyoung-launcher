@@ -30,14 +30,23 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.14.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.14.jar",
-      "sha1": "629dd7c452a9d13968c3dd27f1752ef4d073bcf9"
+      "name": "jooyoung-server-mods-0.5.16.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.16.jar",
+      "sha1": "0b20b35e81f985311346ec46015ce11cc194bb34"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.16",
+      "text": "데미지 숫자가 새 그림 모양으로 바뀌고 스킨을 고를 수 있어요",
+      "details": [
+        "설정 > 데미지에서 스킨(기본·은빛·노을·달빛·얼음)을 골라요",
+        "치명타는 크게 반짝이고 \"치명타\" 글자가 붙어요",
+        "내가 회복하면 초록색 숫자가 떠요(서버 플러그인 0.6.4)"
+      ]
+    },
     {
       "date": "0.5.14",
       "text": "데미지 설정 창이 생겼어요",
