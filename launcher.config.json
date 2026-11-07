@@ -30,14 +30,22 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.3.8.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.3.8.jar",
-      "sha1": "56e2ae0cdd3d79e69cb7518c9402b8d64ade6d21"
+      "name": "jooyoung-server-mods-0.3.9.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.3.9.jar",
+      "sha1": "494aea23efa431e7b511018fc0ee7bdf4ad7e448"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.3.9",
+      "text": "아이템 수량 위치와 메뉴 이름 간격을 다듬었어요",
+      "details": [
+        "핫바 아이템 수량 숫자가 아이템을 덜 가려요",
+        "메뉴 카드의 이름과 전투력 간격이 넓어졌어요"
+      ]
+    },
     {
       "date": "0.3.8",
       "text": "화면 글씨가 더 크고 또렷해졌어요",
