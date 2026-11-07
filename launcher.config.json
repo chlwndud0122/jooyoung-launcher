@@ -30,14 +30,22 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.2.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.2.jar",
-      "sha1": "6980a9c5ca390b85e79519c23ecb1277297f65e2"
+      "name": "jooyoung-server-mods-0.5.3.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.3.jar",
+      "sha1": "39aa34fef60b0e74837b72691b376323ee00aeb9"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.3",
+      "text": "스킬 칸이 생겼고 HUD 편집에서 크기·위치를 바꿀 수 있어요",
+      "details": [
+        "오른쪽 아래에 스킬 4칸과 궁극기 칸 모양이 들어갔어요(스킬은 아직 준비 중)",
+        "HUD 편집에서 스킬 칸을 끌어 옮기고 크기를 바꿀 수 있어요"
+      ]
+    },
     {
       "date": "0.5.2",
       "text": "정보 판에 서버가 정한 지역 이름이 나와요",
