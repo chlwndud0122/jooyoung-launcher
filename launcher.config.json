@@ -30,14 +30,22 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.4.0.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.4.0.jar",
-      "sha1": "f6096673525e2bc6eb1ffe10620195682e8e0fec"
+      "name": "jooyoung-server-mods-0.5.0.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.0.jar",
+      "sha1": "e3a1b88399635396401d5824bf125b7ac959caf3"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.0",
+      "text": "설정 창과 HUD 크기 조절, 지도 아래 정보 판이 생겼어요",
+      "details": [
+        "메뉴의 설정에서 HUD 크기(80~125%)를 바꿀 수 있어요",
+        "미니맵 아래에 지역 이름과 좌표가 보여요"
+      ]
+    },
     {
       "date": "0.4.0",
       "text": "효과 칸에 상태이상·신앙·음식 효과가 표시돼요",
