@@ -30,14 +30,22 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.13.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.13.jar",
-      "sha1": "7b4e831673c235073787029537ee7cc17d8d71ed"
+      "name": "jooyoung-server-mods-0.5.14.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.14.jar",
+      "sha1": "629dd7c452a9d13968c3dd27f1752ef4d073bcf9"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.14",
+      "text": "데미지 설정 창이 생겼어요",
+      "details": [
+        "설정 > 데미지에서 숫자 켜기·크기·투명도·다른 사람 데미지를 정해요",
+        "때리면 몬스터 위에 데미지 숫자가 떠요(서버 플러그인 0.6.2)"
+      ]
+    },
     {
       "date": "0.5.13",
       "text": "스킬 칸이 항상 보이고 미니맵 프리셋 전환·크기 조절을 고쳤어요",
