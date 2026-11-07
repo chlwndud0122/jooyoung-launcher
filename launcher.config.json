@@ -30,14 +30,21 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.5.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.5.jar",
-      "sha1": "3846597690833b5c6ccf882fa3308f9122332c33"
+      "name": "jooyoung-server-mods-0.5.6.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.6.jar",
+      "sha1": "1eb2aa39f9a862c6dcfa5c6535e771509123609f"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.6",
+      "text": "HUD 편집에서 지도 아래 정보 판도 크기·위치를 바꿀 수 있어요",
+      "details": [
+        "정보 판(지역·좌표)을 끌어 옮기고 크기를 80~125%로 바꿔요"
+      ]
+    },
     {
       "date": "0.5.5",
       "text": "HUD 편집에서 스킬 칸 틀이 어긋나던 것을 고쳤어요",
