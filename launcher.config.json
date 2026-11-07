@@ -30,14 +30,21 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.7.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.7.jar",
-      "sha1": "78389e985c9d65b13620283e808aabd872f4145e"
+      "name": "jooyoung-server-mods-0.5.8.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.8.jar",
+      "sha1": "7c1a95d1a8550fd1475de67dd0de155af616b9d8"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.8",
+      "text": "미니맵 위쪽 시간 글자를 껐어요",
+      "details": [
+        "미니맵 위아래 JourneyMap 글자가 모두 없어져요"
+      ]
+    },
     {
       "date": "0.5.7",
       "text": "미니맵도 HUD 편집에서 정보 판과 함께 크기·위치를 바꿀 수 있어요",
