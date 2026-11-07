@@ -30,14 +30,21 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.21.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.21.jar",
-      "sha1": "e4170c7e8e091a87d224102a655196cc6e42a1f7"
+      "name": "jooyoung-server-mods-0.5.22.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.22.jar",
+      "sha1": "8a15ae4e7a5f29b661aa88f0ae42cbd4c95a10da"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.22",
+      "text": "작은 글씨가 덜 흐려졌어요",
+      "details": [
+        "디자이너가 만든 작은 글씨용 글꼴(32px)을 추가해서, 작은 글씨는 그걸 쓰고 큰 글씨는 큰 글꼴을 써요"
+      ]
+    },
     {
       "date": "0.5.21",
       "text": "몬스터 체력 바가 생기고, 모든 글씨가 새 글꼴로 바뀌었어요",
@@ -124,13 +131,6 @@
       "details": [
         "미니맵과 정보 판이 한 묶음으로 움직여요",
         "미니맵 기본 크기를 정보 판에 맞게 줄였고, 미니맵 아래 좌표 글자는 껐어요"
-      ]
-    },
-    {
-      "date": "0.5.6",
-      "text": "HUD 편집에서 지도 아래 정보 판도 크기·위치를 바꿀 수 있어요",
-      "details": [
-        "정보 판(지역·좌표)을 끌어 옮기고 크기를 80~125%로 바꿔요"
       ]
     }
   ]
