@@ -30,14 +30,21 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.22.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.22.jar",
-      "sha1": "8a15ae4e7a5f29b661aa88f0ae42cbd4c95a10da"
+      "name": "jooyoung-server-mods-0.5.23.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.23.jar",
+      "sha1": "2791ae55121e101a65b81c3e8fb2a40f8dc743f8"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.23",
+      "text": "글꼴을 64px 한 벌로 통일했어요",
+      "details": [
+        "32px 글꼴을 빼고, 작은 글씨는 64px 글꼴을 줄여 만든 그림으로 그려요"
+      ]
+    },
     {
       "date": "0.5.22",
       "text": "작은 글씨가 덜 흐려졌어요",
@@ -123,14 +130,6 @@
       "text": "미니맵 위쪽 시간 글자를 껐어요",
       "details": [
         "미니맵 위아래 JourneyMap 글자가 모두 없어져요"
-      ]
-    },
-    {
-      "date": "0.5.7",
-      "text": "미니맵도 HUD 편집에서 정보 판과 함께 크기·위치를 바꿀 수 있어요",
-      "details": [
-        "미니맵과 정보 판이 한 묶음으로 움직여요",
-        "미니맵 기본 크기를 정보 판에 맞게 줄였고, 미니맵 아래 좌표 글자는 껐어요"
       ]
     }
   ]
