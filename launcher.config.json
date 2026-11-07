@@ -30,14 +30,22 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.3.7.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.3.7.jar",
-      "sha1": "3cb7fb8f7b04bc0953669edbad798b340f5fb416"
+      "name": "jooyoung-server-mods-0.3.8.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.3.8.jar",
+      "sha1": "56e2ae0cdd3d79e69cb7518c9402b8d64ade6d21"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.3.8",
+      "text": "화면 글씨가 더 크고 또렷해졌어요",
+      "details": [
+        "HUD와 메뉴창 글씨를 키우고 테두리를 넣었어요",
+        "메뉴창 제목 위치를 조금 내렸어요"
+      ]
+    },
     {
       "date": "0.3.7",
       "text": "보조손 칸이 생기고, 효과 있는 칸만 보여요",
