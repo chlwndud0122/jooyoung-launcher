@@ -30,14 +30,23 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.23.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.23.jar",
-      "sha1": "2791ae55121e101a65b81c3e8fb2a40f8dc743f8"
+      "name": "jooyoung-server-mods-0.5.25.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.25.jar",
+      "sha1": "974e39660401b7d202557336e54cd363a2e32ce7"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.25",
+      "text": "글꼴과 데미지 숫자 그림을 새로 바꿨어요",
+      "details": [
+        "디자이너가 고친 글꼴로 바꿨어요(글자 간격 포함)",
+        "데미지 숫자의 회색 점이 사라졌어요",
+        "작은 글씨는 또렷한 기존 글꼴을 써요"
+      ]
+    },
     {
       "date": "0.5.23",
       "text": "글꼴을 64px 한 벌로 통일했어요",
@@ -123,13 +132,6 @@
       "text": "모든 화면의 글자 모양을 하나로 맞췄어요",
       "details": [
         "메뉴·설정·조작키·HUD 편집·HUD 글자의 테두리와 그림자가 같아져요"
-      ]
-    },
-    {
-      "date": "0.5.8",
-      "text": "미니맵 위쪽 시간 글자를 껐어요",
-      "details": [
-        "미니맵 위아래 JourneyMap 글자가 모두 없어져요"
       ]
     }
   ]
