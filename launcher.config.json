@@ -30,14 +30,22 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.16.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.16.jar",
-      "sha1": "0b20b35e81f985311346ec46015ce11cc194bb34"
+      "name": "jooyoung-server-mods-0.5.17.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.17.jar",
+      "sha1": "f7a08f7cb753e5df800c284c39e06855c44b997b"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.17",
+      "text": "데미지 숫자를 더 크게 키웠어요",
+      "details": [
+        "설정 100%일 때 숫자가 이전보다 1.8배 커졌어요",
+        "크기는 설정 > 데미지에서 바꿔요"
+      ]
+    },
     {
       "date": "0.5.16",
       "text": "데미지 숫자가 새 그림 모양으로 바뀌고 스킨을 고를 수 있어요",
