@@ -30,14 +30,22 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.3.9.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.3.9.jar",
-      "sha1": "494aea23efa431e7b511018fc0ee7bdf4ad7e448"
+      "name": "jooyoung-server-mods-0.4.0.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.4.0.jar",
+      "sha1": "f6096673525e2bc6eb1ffe10620195682e8e0fec"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.4.0",
+      "text": "효과 칸에 상태이상·신앙·음식 효과가 표시돼요",
+      "details": [
+        "걸린 효과가 아이콘과 남은 시간으로 보여요",
+        "신앙은 해, 음식은 사과 표시가 붙어요"
+      ]
+    },
     {
       "date": "0.3.9",
       "text": "아이템 수량 위치와 메뉴 이름 간격을 다듬었어요",
