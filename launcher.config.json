@@ -30,14 +30,21 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.1.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.1.jar",
-      "sha1": "4eddc3cfd56d2a47b7a9e2cc246effbd2817eea0"
+      "name": "jooyoung-server-mods-0.5.2.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.2.jar",
+      "sha1": "6980a9c5ca390b85e79519c23ecb1277297f65e2"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.2",
+      "text": "정보 판에 서버가 정한 지역 이름이 나와요",
+      "details": [
+        "지도 아래 판의 윗줄이 지역 이름으로 바뀌어요"
+      ]
+    },
     {
       "date": "0.5.1",
       "text": "설정 화살표와 HUD 편집 화면을 다듬었어요",
