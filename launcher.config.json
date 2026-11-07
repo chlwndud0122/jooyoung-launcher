@@ -30,14 +30,21 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.19.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.19.jar",
-      "sha1": "628b0e3b757e726338c8bb0fac56a8217866c097"
+      "name": "jooyoung-server-mods-0.5.20.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.20.jar",
+      "sha1": "6d666e43b1c3839d77c6d0daf70256af7d0a0e70"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.20",
+      "text": "데미지 숫자 크기 비율을 맞췄어요",
+      "details": [
+        "보통 숫자와 치명타 숫자의 크기 차이를 약 1.1배로 줄였어요"
+      ]
+    },
     {
       "date": "0.5.19",
       "text": "일반 데미지 숫자를 더 키우고 멀리 있으면 작게 보여요",
@@ -123,14 +130,6 @@
       "text": "HUD 편집에서 스킬 칸 틀이 어긋나던 것을 고쳤어요",
       "details": [
         "창 비율이 달라도 스킬 칸과 편집 틀이 맞아요"
-      ]
-    },
-    {
-      "date": "0.5.4",
-      "text": "조작키 창이 생겼어요",
-      "details": [
-        "설정에서 조작키를 열면 키보드·마우스 그림에서 키를 눌러 항목을 배정할 수 있어요",
-        "지금 실제로 동작하는 건 메뉴 키 하나예요"
       ]
     }
   ]
