@@ -30,14 +30,22 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.3.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.3.jar",
-      "sha1": "39aa34fef60b0e74837b72691b376323ee00aeb9"
+      "name": "jooyoung-server-mods-0.5.4.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.4.jar",
+      "sha1": "81b09833c2768c527596bda9487d89440c1169de"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.4",
+      "text": "조작키 창이 생겼어요",
+      "details": [
+        "설정에서 조작키를 열면 키보드·마우스 그림에서 키를 눌러 항목을 배정할 수 있어요",
+        "지금 실제로 동작하는 건 메뉴 키 하나예요"
+      ]
+    },
     {
       "date": "0.5.3",
       "text": "스킬 칸이 생겼고 HUD 편집에서 크기·위치를 바꿀 수 있어요",
