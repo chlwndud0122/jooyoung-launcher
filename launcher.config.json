@@ -30,14 +30,21 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.4.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.4.jar",
-      "sha1": "81b09833c2768c527596bda9487d89440c1169de"
+      "name": "jooyoung-server-mods-0.5.5.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.5.jar",
+      "sha1": "3846597690833b5c6ccf882fa3308f9122332c33"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.5",
+      "text": "HUD 편집에서 스킬 칸 틀이 어긋나던 것을 고쳤어요",
+      "details": [
+        "창 비율이 달라도 스킬 칸과 편집 틀이 맞아요"
+      ]
+    },
     {
       "date": "0.5.4",
       "text": "조작키 창이 생겼어요",
