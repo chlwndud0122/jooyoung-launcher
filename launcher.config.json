@@ -30,14 +30,24 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.30.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.30.jar",
-      "sha1": "61b760765c8e3f98498ccb16a489864beeeeff6e"
+      "name": "jooyoung-server-mods-0.5.33.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.33.jar",
+      "sha1": "8135ec6d7c12e31accee2a08ec0d1539962ac136"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.33",
+      "text": "글씨 크기를 짝수로 맞추고 HUD를 다듬었어요",
+      "details": [
+        "모든 글씨 크기를 짝수로 통일했어요",
+        "핫바 묶음이 마인크래프트 GUI 크기 설정을 따라요",
+        "핑 막대 위치와 몬스터 체력 바 떨림을 고쳤어요",
+        "새 스킬 칸을 만드는 동안 스킬 칸을 잠시 숨겼어요"
+      ]
+    },
     {
       "date": "0.5.30",
       "text": "글씨 방식과 크기를 새로 맞췄어요",
@@ -125,15 +135,6 @@
         "스킬 칸 4개와 궁극기 칸이 항상 보여요(스킬은 아직 준비 중)",
         "미니맵 프리셋을 바꿔도 같은 크기·자리에 원형으로 나와요",
         "HUD 편집에서 미니맵이 더 빨리 따라와요"
-      ]
-    },
-    {
-      "date": "0.5.11",
-      "text": "미니맵을 30%로 키우고 스킬 칸 테두리·편집 글자를 고쳤어요",
-      "details": [
-        "미니맵 아래 가운데에 정보 판이 붙어요",
-        "스킬 칸 가는 테두리가 사라지던 것을 고쳤어요",
-        "HUD 편집과 조작키 창의 작은 글자를 키웠어요"
       ]
     }
   ]
