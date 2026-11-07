@@ -30,14 +30,22 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.0.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.0.jar",
-      "sha1": "e3a1b88399635396401d5824bf125b7ac959caf3"
+      "name": "jooyoung-server-mods-0.5.1.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.1.jar",
+      "sha1": "4eddc3cfd56d2a47b7a9e2cc246effbd2817eea0"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.1",
+      "text": "설정 화살표와 HUD 편집 화면을 다듬었어요",
+      "details": [
+        "설정 목록 화살표가 더 매끈해졌어요",
+        "HUD 편집에서 요소를 누르면 크기 손잡이가 나와요"
+      ]
+    },
     {
       "date": "0.5.0",
       "text": "설정 창과 HUD 크기 조절, 지도 아래 정보 판이 생겼어요",
