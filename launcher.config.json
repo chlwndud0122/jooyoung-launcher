@@ -30,14 +30,21 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.47.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.47.jar",
-      "sha1": "9d3416f872e6773bf2dcbd973f0ab8ecf10aa8f5"
+      "name": "jooyoung-server-mods-0.5.49.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.49.jar",
+      "sha1": "97d543bcbd25f60bb78b4db6405b14b99209c5d0"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.49",
+      "text": "메뉴창이 커졌어요",
+      "details": [
+        "메뉴창이 1.2배 커졌고 글씨도 함께 커졌어요"
+      ]
+    },
     {
       "date": "0.5.47",
       "text": "글씨 크기를 디자이너 초안에 맞췄어요",
@@ -128,14 +135,6 @@
       "details": [
         "보통 숫자와 회복 숫자를 1.3배 키웠어요",
         "멀리 있는 몬스터의 숫자는 거리에 따라 작아져요"
-      ]
-    },
-    {
-      "date": "0.5.17",
-      "text": "데미지 숫자를 더 크게 키웠어요",
-      "details": [
-        "설정 100%일 때 숫자가 이전보다 1.8배 커졌어요",
-        "크기는 설정 > 데미지에서 바꿔요"
       ]
     }
   ]
