@@ -30,14 +30,21 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.55.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.55.jar",
-      "sha1": "521331b936657b310b74bfc2bfdcf0ee7e4aaa5a"
+      "name": "jooyoung-server-mods-0.5.56.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.56.jar",
+      "sha1": "db4f80409638bec5f6a4b285f7b0ea4b88336cae"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.56",
+      "text": "글자 간격을 디자이너 값 그대로 썼어요",
+      "details": [
+        "숫자·영문 간격을 우리가 더 줄이지 않고 디자이너가 정한 값 그대로 써서 테두리가 안 겹쳐요"
+      ]
+    },
     {
       "date": "0.5.55",
       "text": "조작키 창과 HUD 편집 창을 다듬었어요",
@@ -128,14 +135,6 @@
       "text": "작은 글씨가 덜 흐려졌어요",
       "details": [
         "디자이너가 만든 작은 글씨용 글꼴(32px)을 추가해서, 작은 글씨는 그걸 쓰고 큰 글씨는 큰 글꼴을 써요"
-      ]
-    },
-    {
-      "date": "0.5.21",
-      "text": "몬스터 체력 바가 생기고, 모든 글씨가 새 글꼴로 바뀌었어요",
-      "details": [
-        "조준하거나 다친 몬스터 머리 위에 이름과 체력 바가 떠요",
-        "메뉴·설정·HUD·몬스터 이름 글씨가 디자이너가 만든 글꼴로 바뀌었어요"
       ]
     }
   ]
