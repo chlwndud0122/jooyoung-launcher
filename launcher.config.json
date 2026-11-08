@@ -30,14 +30,27 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.64.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.64.jar",
-      "sha1": "2e4bf04aa3abc7f3669018dc0bbafc6b1f44180b"
+      "name": "jooyoung-server-mods-0.5.66.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.66.jar",
+      "sha1": "8e782bed8edd4b0bc36dcaf66ff1cc05db1cc666"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.66",
+      "text": "채팅이 들어오고 별·화살표가 매끄러워졌어요",
+      "details": [
+        "채팅 판에 게임 채팅 글이 나오고 탭(전체·파티·귓속말·시스템), 글자 크기 단추, 입력칸이 생겼어요",
+        "T나 /를 누르면 우리 채팅 판에서 글을 쓰고 Enter로 보내요",
+        "Alt를 누른 상태에서 탭·단추·접기를 눌러요",
+        "파티창에 파티장 별과 접속 끊김 표시가 생겼어요",
+        "퀘스트 판이 시안 모양(접힘 한 줄, 펼침 목표 줄)으로 바뀌었고 시험용 퀘스트가 하나 들어가요",
+        "별과 화살표 모양을 시안과 같은 방식으로 매끄럽게 다듬었어요",
+        "궁극기 바깥 흰 빛을 없앴어요"
+      ]
+    },
     {
       "date": "0.5.64",
       "text": "캐릭터 정보 창, 상단 바·파티창 조절, 글자 간격을 넣었어요",
@@ -133,15 +146,6 @@
         "핫바 묶음이 마인크래프트 GUI 크기 설정을 따라요",
         "핑 막대 위치와 몬스터 체력 바 떨림을 고쳤어요",
         "새 스킬 칸을 만드는 동안 스킬 칸을 잠시 숨겼어요"
-      ]
-    },
-    {
-      "date": "0.5.30",
-      "text": "글씨 방식과 크기를 새로 맞췄어요",
-      "details": [
-        "글꼴 파일을 직접 그리는 방식으로 바꿔 작은 글씨가 또렷해졌어요",
-        "모든 글씨를 굵게, 크기는 디자이너 표대로 맞췄어요",
-        "메뉴·설정 창 안 글씨는 테두리를 뺐어요"
       ]
     }
   ]
