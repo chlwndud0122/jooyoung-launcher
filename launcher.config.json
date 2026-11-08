@@ -30,14 +30,25 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.59.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.59.jar",
-      "sha1": "18b7392210c5cbee0759ab3610991caa2f8818b6"
+      "name": "jooyoung-server-mods-0.5.61.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.61.jar",
+      "sha1": "48c495d61e10d96956aa325a8e38a5a56b15d19c"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.61",
+      "text": "스킬 2x2, 퀘스트 판 분리, 채팅 크기 조절을 넣었어요",
+      "details": [
+        "오른쪽 아래에 스킬 칸이 2x2(Z X / C V)와 궁극기 R로 나와요",
+        "퀘스트 판이 미니맵·지역 정보 판과 따로 움직이고 크기도 따로 바꿔요",
+        "HUD 편집에서 채팅 가로와 높이를 따로 늘리고 줄일 수 있어요",
+        "파티창에 전투력, 마나 바를 넣었고 채팅 탭이 전체·파티·귓속말·시스템으로 나뉘어요",
+        "글씨를 글꼴에 있는 크기에 맞춰 선명하게 그려요"
+      ]
+    },
     {
       "date": "0.5.59",
       "text": "왼쪽 위 상단 바와 채팅·파티·퀘스트 판, Alt 조작을 넣었어요",
@@ -131,13 +142,6 @@
         "디자이너가 고친 글꼴로 바꿨어요(글자 간격 포함)",
         "데미지 숫자의 회색 점이 사라졌어요",
         "작은 글씨는 또렷한 기존 글꼴을 써요"
-      ]
-    },
-    {
-      "date": "0.5.23",
-      "text": "글꼴을 64px 한 벌로 통일했어요",
-      "details": [
-        "32px 글꼴을 빼고, 작은 글씨는 64px 글꼴을 줄여 만든 그림으로 그려요"
       ]
     }
   ]
