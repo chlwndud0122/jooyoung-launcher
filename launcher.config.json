@@ -30,14 +30,22 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.45.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.45.jar",
-      "sha1": "59c959fe25dcf2dd4f4f8dfa325450d55b6dc14f"
+      "name": "jooyoung-server-mods-0.5.47.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.47.jar",
+      "sha1": "9d3416f872e6773bf2dcbd973f0ab8ecf10aa8f5"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.47",
+      "text": "글씨 크기를 디자이너 초안에 맞췄어요",
+      "details": [
+        "메뉴창 글씨(제목·본문·보조)와 좌표 글씨를 초안 크기로 줄였어요",
+        "메뉴·설정 창 글씨에도 테두리를 넣어 HUD 글씨와 통일했어요"
+      ]
+    },
     {
       "date": "0.5.45",
       "text": "효과 칸 글씨와 메뉴창을 다듬었어요",
@@ -128,15 +136,6 @@
       "details": [
         "설정 100%일 때 숫자가 이전보다 1.8배 커졌어요",
         "크기는 설정 > 데미지에서 바꿔요"
-      ]
-    },
-    {
-      "date": "0.5.16",
-      "text": "데미지 숫자가 새 그림 모양으로 바뀌고 스킨을 고를 수 있어요",
-      "details": [
-        "설정 > 데미지에서 스킨(기본·은빛·노을·달빛·얼음)을 골라요",
-        "치명타는 크게 반짝이고 \"치명타\" 글자가 붙어요",
-        "내가 회복하면 초록색 숫자가 떠요(서버 플러그인 0.6.4)"
       ]
     }
   ]
