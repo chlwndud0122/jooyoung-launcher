@@ -30,14 +30,22 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.53.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.53.jar",
-      "sha1": "5293f63778381f73bc8409260886a122597d680f"
+      "name": "jooyoung-server-mods-0.5.55.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.55.jar",
+      "sha1": "521331b936657b310b74bfc2bfdcf0ee7e4aaa5a"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.55",
+      "text": "조작키 창과 HUD 편집 창을 다듬었어요",
+      "details": [
+        "조작키 창에서 키에 마우스를 올리면 키 모양 그대로 테두리가 생겨요",
+        "HUD 편집 창의 점선 상자가 실제 HUD 크기에 맞고, 글씨가 밖으로 나오지 않아요"
+      ]
+    },
     {
       "date": "0.5.53",
       "text": "HUD 숫자 크기를 다듬었어요",
@@ -128,13 +136,6 @@
       "details": [
         "조준하거나 다친 몬스터 머리 위에 이름과 체력 바가 떠요",
         "메뉴·설정·HUD·몬스터 이름 글씨가 디자이너가 만든 글꼴로 바뀌었어요"
-      ]
-    },
-    {
-      "date": "0.5.20",
-      "text": "데미지 숫자 크기 비율을 맞췄어요",
-      "details": [
-        "보통 숫자와 치명타 숫자의 크기 차이를 약 1.1배로 줄였어요"
       ]
     }
   ]
