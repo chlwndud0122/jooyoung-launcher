@@ -30,14 +30,25 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.66.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.66.jar",
-      "sha1": "8e782bed8edd4b0bc36dcaf66ff1cc05db1cc666"
+      "name": "jooyoung-server-mods-0.5.72.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.72.jar",
+      "sha1": "b84026ada3ba8a7a1f7a2392a46f4ca3e10998d3"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.72",
+      "text": "글자 크기와 모서리를 다듬고 정보 판·퀘스트 판을 키웠어요",
+      "details": [
+        "지역 정보 판과 퀘스트 판이 1.5배 커졌어요",
+        "상단 바·채팅·파티창·정보 판·퀘스트 판 모서리 크기를 같게 맞췄어요",
+        "채팅 글자 크기를 9단계로 늘리고 기본을 24로 했어요, 파티창 글씨도 키웠어요",
+        "스킬 칸 알파벳을 키웠고 궁극기 R은 더 크게 했어요",
+        "조작키 창 마우스 오른쪽 테두리가 끊기던 것을 고쳤어요"
+      ]
+    },
     {
       "date": "0.5.66",
       "text": "채팅이 들어오고 별·화살표가 매끄러워졌어요",
@@ -136,16 +147,6 @@
         "디자이너가 만든 테두리 포함 글꼴 그림을 그대로 찍어서 글씨가 더 또렷해요",
         "숫자 간격과 숫자 1 간격을 줄였어요",
         "글씨 크기를 12·16·20·24·28 표에 맞췄어요"
-      ]
-    },
-    {
-      "date": "0.5.33",
-      "text": "글씨 크기를 짝수로 맞추고 HUD를 다듬었어요",
-      "details": [
-        "모든 글씨 크기를 짝수로 통일했어요",
-        "핫바 묶음이 마인크래프트 GUI 크기 설정을 따라요",
-        "핑 막대 위치와 몬스터 체력 바 떨림을 고쳤어요",
-        "새 스킬 칸을 만드는 동안 스킬 칸을 잠시 숨겼어요"
       ]
     }
   ]

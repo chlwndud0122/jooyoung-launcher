@@ -78,7 +78,14 @@ h1 {
   position: absolute; left: 50%; transform: translateX(-50%); bottom: 96px; width: 520px;
   padding: 16px 22px 14px; border-radius: 14px; font-size: 13.5px; line-height: 1.7;
   background: rgba(8,18,42,.93); border: 1px solid #3a4a72; animation: fade .15s ease-out;
+  /* 소식이 많아 창보다 길어지면 마우스 휠로 넘겨 봐요 */
+  max-height: calc(100vh - 170px); overflow-y: auto; overscroll-behavior: contain;
+  scrollbar-width: thin; scrollbar-color: #4a5a85 transparent;
 }
+.news::-webkit-scrollbar { width: 8px; }
+.news::-webkit-scrollbar-track { background: transparent; }
+.news::-webkit-scrollbar-thumb { background: #4a5a85; border-radius: 4px; }
+.news::-webkit-scrollbar-thumb:hover { background: #6a7aa8; }
 .news[hidden] { display: none; }
 .news h2 { margin: 0 0 6px; font-size: 14px; color: var(--gold); }
 .news ul { list-style: none; margin: 0; padding: 0; }
