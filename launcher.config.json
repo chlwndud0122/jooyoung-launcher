@@ -30,14 +30,22 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.49.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.49.jar",
-      "sha1": "97d543bcbd25f60bb78b4db6405b14b99209c5d0"
+      "name": "jooyoung-server-mods-0.5.53.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.53.jar",
+      "sha1": "5293f63778381f73bc8409260886a122597d680f"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.53",
+      "text": "HUD 숫자 크기를 다듬었어요",
+      "details": [
+        "레벨·체력·마나·핫바 숫자 크기를 줄였어요",
+        "레벨 숫자를 원 가운데에 맞추고 원 안쪽 선을 매끄럽게 했어요"
+      ]
+    },
     {
       "date": "0.5.49",
       "text": "메뉴창이 커졌어요",
@@ -127,14 +135,6 @@
       "text": "데미지 숫자 크기 비율을 맞췄어요",
       "details": [
         "보통 숫자와 치명타 숫자의 크기 차이를 약 1.1배로 줄였어요"
-      ]
-    },
-    {
-      "date": "0.5.19",
-      "text": "일반 데미지 숫자를 더 키우고 멀리 있으면 작게 보여요",
-      "details": [
-        "보통 숫자와 회복 숫자를 1.3배 키웠어요",
-        "멀리 있는 몬스터의 숫자는 거리에 따라 작아져요"
       ]
     }
   ]
