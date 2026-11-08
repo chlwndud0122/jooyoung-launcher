@@ -30,14 +30,23 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.33.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.33.jar",
-      "sha1": "8135ec6d7c12e31accee2a08ec0d1539962ac136"
+      "name": "jooyoung-server-mods-0.5.39.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.39.jar",
+      "sha1": "2b43abd3062d0d8358e0ee1df441f7fdca0ce9e3"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.39",
+      "text": "디자이너 글꼴로 글씨를 새로 그렸어요",
+      "details": [
+        "디자이너가 만든 테두리 포함 글꼴 그림을 그대로 찍어서 글씨가 더 또렷해요",
+        "숫자 간격과 숫자 1 간격을 줄였어요",
+        "글씨 크기를 12·16·20·24·28 표에 맞췄어요"
+      ]
+    },
     {
       "date": "0.5.33",
       "text": "글씨 크기를 짝수로 맞추고 HUD를 다듬었어요",
@@ -126,15 +135,6 @@
       "details": [
         "설정 > 데미지에서 숫자 켜기·크기·투명도·다른 사람 데미지를 정해요",
         "때리면 몬스터 위에 데미지 숫자가 떠요(서버 플러그인 0.6.2)"
-      ]
-    },
-    {
-      "date": "0.5.13",
-      "text": "스킬 칸이 항상 보이고 미니맵 프리셋 전환·크기 조절을 고쳤어요",
-      "details": [
-        "스킬 칸 4개와 궁극기 칸이 항상 보여요(스킬은 아직 준비 중)",
-        "미니맵 프리셋을 바꿔도 같은 크기·자리에 원형으로 나와요",
-        "HUD 편집에서 미니맵이 더 빨리 따라와요"
       ]
     }
   ]
