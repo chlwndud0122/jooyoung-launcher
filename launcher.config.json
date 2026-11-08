@@ -30,14 +30,24 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.39.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.39.jar",
-      "sha1": "2b43abd3062d0d8358e0ee1df441f7fdca0ce9e3"
+      "name": "jooyoung-server-mods-0.5.45.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.45.jar",
+      "sha1": "59c959fe25dcf2dd4f4f8dfa325450d55b6dc14f"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.45",
+      "text": "효과 칸 글씨와 메뉴창을 다듬었어요",
+      "details": [
+        "효과 칸 시간·퍼센트 글씨를 줄여 서로 붙지 않아요",
+        "좌표 같은 영문 글씨 간격을 좁혔어요",
+        "글씨 크기 제한을 없앴어요",
+        "메뉴창이 마인크래프트 GUI 크기를 따라가고, 메뉴 제목이 조금 커졌어요"
+      ]
+    },
     {
       "date": "0.5.39",
       "text": "디자이너 글꼴로 글씨를 새로 그렸어요",
@@ -127,14 +137,6 @@
         "설정 > 데미지에서 스킨(기본·은빛·노을·달빛·얼음)을 골라요",
         "치명타는 크게 반짝이고 \"치명타\" 글자가 붙어요",
         "내가 회복하면 초록색 숫자가 떠요(서버 플러그인 0.6.4)"
-      ]
-    },
-    {
-      "date": "0.5.14",
-      "text": "데미지 설정 창이 생겼어요",
-      "details": [
-        "설정 > 데미지에서 숫자 켜기·크기·투명도·다른 사람 데미지를 정해요",
-        "때리면 몬스터 위에 데미지 숫자가 떠요(서버 플러그인 0.6.2)"
       ]
     }
   ]
