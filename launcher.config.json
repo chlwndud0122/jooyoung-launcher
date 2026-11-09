@@ -30,14 +30,21 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.79.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.79.jar",
-      "sha1": "9ada477ae5a306e8ea68bcfaf341d8100a314fc3"
+      "name": "jooyoung-server-mods-0.5.80.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.80.jar",
+      "sha1": "22e3f9edbc655a6b490c683e48d54864ee37bcb6"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.80",
+      "text": "지도 밑 정보 판 글자 조정",
+      "details": [
+        "지역 이름 글자를 조금 줄여 퀘스트 판과 크기를 맞췄어요"
+      ]
+    },
     {
       "date": "0.5.79",
       "text": "상점이 생겼어요",
@@ -144,13 +151,6 @@
       "details": [
         "레벨·체력·마나·핫바 숫자 크기를 줄였어요",
         "레벨 숫자를 원 가운데에 맞추고 원 안쪽 선을 매끄럽게 했어요"
-      ]
-    },
-    {
-      "date": "0.5.49",
-      "text": "메뉴창이 커졌어요",
-      "details": [
-        "메뉴창이 1.2배 커졌고 글씨도 함께 커졌어요"
       ]
     }
   ]
