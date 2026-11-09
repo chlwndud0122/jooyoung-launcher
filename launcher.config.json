@@ -30,14 +30,23 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.72.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.72.jar",
-      "sha1": "b84026ada3ba8a7a1f7a2392a46f4ca3e10998d3"
+      "name": "jooyoung-server-mods-0.5.74.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.74.jar",
+      "sha1": "b55cf17c3ec17a93422c02e8105239c8ede85cf4"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.74",
+      "text": "화면을 빠르게 돌릴 때 버벅이던 걸 줄였어요",
+      "details": [
+        "체력·마나 사이 레벨 원을 가볍게 그리게 바꿔서 화면이 더 부드러워졌어요",
+        "배고픔 칸·궁극기 충전 테두리도 가볍게 그려요(궁극기 테두리 윗줄이 끊겨 보이던 것도 고쳐졌어요)",
+        "몬스터가 많을 때 체력 바 계산을 줄였어요"
+      ]
+    },
     {
       "date": "0.5.72",
       "text": "글자 크기와 모서리를 다듬고 정보 판·퀘스트 판을 키웠어요",
@@ -138,15 +147,6 @@
         "좌표 같은 영문 글씨 간격을 좁혔어요",
         "글씨 크기 제한을 없앴어요",
         "메뉴창이 마인크래프트 GUI 크기를 따라가고, 메뉴 제목이 조금 커졌어요"
-      ]
-    },
-    {
-      "date": "0.5.39",
-      "text": "디자이너 글꼴로 글씨를 새로 그렸어요",
-      "details": [
-        "디자이너가 만든 테두리 포함 글꼴 그림을 그대로 찍어서 글씨가 더 또렷해요",
-        "숫자 간격과 숫자 1 간격을 줄였어요",
-        "글씨 크기를 12·16·20·24·28 표에 맞췄어요"
       ]
     }
   ]
