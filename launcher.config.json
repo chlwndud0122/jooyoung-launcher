@@ -30,14 +30,25 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.74.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.74.jar",
-      "sha1": "b55cf17c3ec17a93422c02e8105239c8ede85cf4"
+      "name": "jooyoung-server-mods-0.5.77.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.77.jar",
+      "sha1": "900a2210fd36ca5a17cbf89b8b6830ad5a129fe5"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.77",
+      "text": "퀘스트가 생겼어요",
+      "details": [
+        "마을 NPC를 우클릭하면 퀘스트를 받고, 다 하면 다시 말을 걸어 끝내요(경험치·골드 보상)",
+        "메인 퀘스트는 하나씩, 서브·반복 퀘스트는 여러 개 같이 할 수 있어요",
+        "오른쪽 퀘스트 판에 진행 상황이 나와요, 퀘스트가 없으면 \"진행 중인 퀘스트가 없어요\"",
+        "/퀘스트 로 목록 보기, /퀘스트 추적 <번호> 로 판에 띄울 퀘스트 고르기",
+        "상단 바 날씨에 비·눈·뇌우 아이콘이 생겼어요"
+      ]
+    },
     {
       "date": "0.5.74",
       "text": "화면을 빠르게 돌릴 때 버벅이던 걸 줄였어요",
@@ -137,16 +148,6 @@
       "details": [
         "메뉴창 글씨(제목·본문·보조)와 좌표 글씨를 초안 크기로 줄였어요",
         "메뉴·설정 창 글씨에도 테두리를 넣어 HUD 글씨와 통일했어요"
-      ]
-    },
-    {
-      "date": "0.5.45",
-      "text": "효과 칸 글씨와 메뉴창을 다듬었어요",
-      "details": [
-        "효과 칸 시간·퍼센트 글씨를 줄여 서로 붙지 않아요",
-        "좌표 같은 영문 글씨 간격을 좁혔어요",
-        "글씨 크기 제한을 없앴어요",
-        "메뉴창이 마인크래프트 GUI 크기를 따라가고, 메뉴 제목이 조금 커졌어요"
       ]
     }
   ]
