@@ -30,14 +30,25 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.77.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.77.jar",
-      "sha1": "900a2210fd36ca5a17cbf89b8b6830ad5a129fe5"
+      "name": "jooyoung-server-mods-0.5.79.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.79.jar",
+      "sha1": "9ada477ae5a306e8ea68bcfaf341d8100a314fc3"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.79",
+      "text": "상점이 생겼어요",
+      "details": [
+        "상인 NPC를 우클릭하면 상점이 열려요(잡화·무기·방어구·음식)",
+        "분류·검색·정렬로 물건을 찾고, 수량을 골라 사고팔 수 있어요",
+        "소지품 칸을 누르면 그 아이템을 팔 수 있고, \"팔 수 있는 것 모두 판매\"로 한 번에 팔 수도 있어요",
+        "돈이 모자라거나 칸이 없으면 알려 주고, 거래하면 화면 위에 알림이 떠요",
+        "코인이 은색 질감 코인으로 바뀌고, 날씨 아이콘(눈·뇌우)이 더 잘 보이게 바뀌었어요"
+      ]
+    },
     {
       "date": "0.5.77",
       "text": "퀘스트가 생겼어요",
@@ -140,14 +151,6 @@
       "text": "메뉴창이 커졌어요",
       "details": [
         "메뉴창이 1.2배 커졌고 글씨도 함께 커졌어요"
-      ]
-    },
-    {
-      "date": "0.5.47",
-      "text": "글씨 크기를 디자이너 초안에 맞췄어요",
-      "details": [
-        "메뉴창 글씨(제목·본문·보조)와 좌표 글씨를 초안 크기로 줄였어요",
-        "메뉴·설정 창 글씨에도 테두리를 넣어 HUD 글씨와 통일했어요"
       ]
     }
   ]
