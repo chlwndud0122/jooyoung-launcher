@@ -36,14 +36,27 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.80.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.80.jar",
-      "sha1": "22e3f9edbc655a6b490c683e48d54864ee37bcb6"
+      "name": "jooyoung-server-mods-0.5.81.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.81.jar",
+      "sha1": "94e5f104e8d888e70c95fca39ee17a05a3989419"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.81",
+      "text": "파티가 생겼어요",
+      "details": [
+        "메뉴창 모험 칸의 '파티' 또는 /파티 로 파티 창을 열어요 (최대 4명)",
+        "파티를 만들고 친구를 초대하거나, 열린 파티를 찾아 신청할 수 있어요",
+        "보스는 근처 파티원끼리 경험치를 나눠요 (일반 몬스터는 잡은 사람만)",
+        "파티원끼리는 때려도 안 맞고, 채팅 '파티' 탭은 파티원에게만 가요",
+        "잡화상점은 이제 메뉴에서 어디서든 열려요 (팔 때 수수료 10%)",
+        "무기·방어구·음식 상인은 수수료가 없어요",
+        "메뉴창에서 제작·분해·강화를 뺐어요"
+      ]
+    },
     {
       "date": "런처 1.0.2",
       "text": "캐릭터·몬스터 움직임이 생생해져요",
@@ -150,14 +163,6 @@
       "text": "글자 간격을 디자이너 값 그대로 썼어요",
       "details": [
         "숫자·영문 간격을 우리가 더 줄이지 않고 디자이너가 정한 값 그대로 써서 테두리가 안 겹쳐요"
-      ]
-    },
-    {
-      "date": "0.5.55",
-      "text": "조작키 창과 HUD 편집 창을 다듬었어요",
-      "details": [
-        "조작키 창에서 키에 마우스를 올리면 키 모양 그대로 테두리가 생겨요",
-        "HUD 편집 창의 점선 상자가 실제 HUD 크기에 맞고, 글씨가 밖으로 나오지 않아요"
       ]
     }
   ]
