@@ -36,14 +36,24 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.82.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.82.jar",
-      "sha1": "5512116fe96aa7b2ecff5d4be1990e228e560886"
+      "name": "jooyoung-server-mods-0.5.83.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.83.jar",
+      "sha1": "f51a3b1462ebb5edb3ae3e95aff12fcc35c469c9"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.83",
+      "text": "장비 창·가방·룬이 생겼어요",
+      "details": [
+        "E 키나 메뉴의 장비로 새 장비 창이 열려요 (장비 12칸 + 룬 5칸)",
+        "칸을 누르면 빼고, 장비를 들고 칸을 누르면 껴요. 소지품에서 Shift+누르기로 바로 껴요",
+        "메뉴의 가방으로 나만 쓰는 보관함 54칸을 어디서든 열 수 있어요",
+        "룬 8종(경험·힘·민첩·지혜·행운·생명·파괴·수호)을 끼면 능력치가 올라요"
+      ]
+    },
     {
       "date": "0.5.82",
       "text": "Alt로 파티 창을 열 수 있어요",
@@ -153,16 +163,6 @@
         "HUD 편집에서 채팅 가로와 높이를 따로 늘리고 줄일 수 있어요",
         "파티창에 전투력, 마나 바를 넣었고 채팅 탭이 전체·파티·귓속말·시스템으로 나뉘어요",
         "글씨를 글꼴에 있는 크기에 맞춰 선명하게 그려요"
-      ]
-    },
-    {
-      "date": "0.5.59",
-      "text": "왼쪽 위 상단 바와 채팅·파티·퀘스트 판, Alt 조작을 넣었어요",
-      "details": [
-        "왼쪽 위에 날씨·시간·골드 상단 바가 생겼어요(보스전 중에는 숨어요)",
-        "그 아래에 채팅 판과 파티 판, 오른쪽 지역 정보 판 아래에 퀘스트 판이 자리를 잡았어요",
-        "Alt를 누르고 있으면 마우스가 풀려서 채팅·퀘스트를 접고 펼 수 있고, 채팅 오른쪽 아래 모서리를 끌면 크기를 바꿀 수 있어요",
-        "HUD 편집에서 키울 때 다른 판과 겹치면 더 못 커져요"
       ]
     }
   ]
