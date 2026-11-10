@@ -136,7 +136,9 @@ function renderServersInner() {
   box.replaceChildren();
   // Each server can have its own artwork and title (the test server uses a different scene).
   const cur = servers.find(s => s.id === selectedServer);
-  document.querySelector('.art').classList.toggle('alt', cur?.art ? cur.art === 'test' : selectedServer === 'test');
+  const art = document.querySelector('.art');
+  art.classList.toggle('alt', cur?.art ? cur.art === 'test' : selectedServer === 'test');
+  art.classList.toggle('hardcore', cur?.art === 'hardcore');
   const title = typeof cur?.title === 'string' ? cur.title : defaultTitle;
   $('server-name').textContent = title;
   document.querySelector('.hero-text').hidden = !title && $('subtitle').hidden;
