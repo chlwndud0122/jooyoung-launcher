@@ -8,6 +8,7 @@ let gameRunning = false;
 let toastTimer;
 let servers = [];          // [{id, name, address}] this player may join
 let selectedServer = null; // id
+let defaultTitle = '';    // config.serverName (서버마다 title 로 바꿀 수 있어요)
 const serverStatus = {};   // id -> status
 
 function toast(msg, kind = 'error') {
@@ -133,8 +134,12 @@ function updateStats() {
 function renderServersInner() {
   const box = $('server-list');
   box.replaceChildren();
-  // Each server can have its own artwork (the test server uses a different scene).
-  document.querySelector('.art').classList.toggle('alt', selectedServer === 'test');
+  // Each server can have its own artwork and title (the test server uses a different scene).
+  const cur = servers.find(s => s.id === selectedServer);
+  document.querySelector('.art').classList.toggle('alt', cur?.art ? cur.art === 'test' : selectedServer === 'test');
+  const title = typeof cur?.title === 'string' ? cur.title : defaultTitle;
+  $('server-name').textContent = title;
+  document.querySelector('.hero-text').hidden = !title && $('subtitle').hidden;
   if (!servers.length) {
     const el = document.createElement('div');
     el.className = 'server-chip';
@@ -319,6 +324,7 @@ $('btn-close').addEventListener('click', () => api.close());
     const { config, account: acc, updateReady, version, servers: servers0, selectedServer: selected0 } = await api.init();
     $('app-version').textContent = '주영런처 v' + version;
     if (updateReady) showUpdate(updateReady);
+    defaultTitle = config.serverName || '';
     $('server-name').textContent = config.serverName;
     $('subtitle').textContent = config.subtitle || '';
     $('subtitle').hidden = !config.subtitle;

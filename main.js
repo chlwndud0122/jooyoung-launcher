@@ -69,7 +69,9 @@ async function visibleServersFor(config, uuid) {
 }
 let lastConfig = null;
 let visibleServers = [];
-const publicServers = () => visibleServers.map(s => ({ id: s.id, name: s.name, address: s.address }));
+// art: 그림 ("test" = 시험 서버 그림), title: 큰 제목 ("" = 제목 없음, 없으면 serverName)
+const publicServers = () => visibleServers.map(s => ({ id: s.id, name: s.name, address: s.address,
+  art: typeof s.art === 'string' ? s.art : undefined, title: typeof s.title === 'string' ? s.title : undefined }));
 function selectedServerId() {
   const want = readSettings().selectedServer;
   return visibleServers.some(s => s.id === want) ? want : visibleServers[0]?.id || null;
@@ -355,6 +357,8 @@ ipcMain.handle('play', async (_e, serverId) => {
     // The page only sends an id; the address always comes from our own checked list.
     const target = visibleServers.find(s => s.id === serverId) || visibleServers[0];
     config.serverAddress = target?.address || '';
+    // "customMods": false 인 서버(하드코어 야생 등)는 우리 모드(히페리아) 없이 최적화·미니맵·모션 모드만 써요
+    if (target && target.customMods === false) config.customMods = [];
     if (target) writeSettings({ selectedServer: target.id });
     const { done } = await prepareAndLaunch({
       root: GAME_DIR,
