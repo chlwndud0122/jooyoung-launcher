@@ -36,14 +36,23 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.83.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.83.jar",
-      "sha1": "f51a3b1462ebb5edb3ae3e95aff12fcc35c469c9"
+      "name": "jooyoung-server-mods-0.5.85.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.85.jar",
+      "sha1": "ce76c3c603287090b16798a75f5e19e49ea95993"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.85",
+      "text": "파티 나가기를 고쳤어요",
+      "details": [
+        "파티 나가기가 안 되던 것을 고쳤어요 (파티장·파티원 모두)",
+        "파티가 없으면 화면 왼쪽 파티 판이 안 보여요",
+        "장비 창·가방의 아이템 개수 숫자가 커졌어요"
+      ]
+    },
     {
       "date": "0.5.83",
       "text": "장비 창·가방·룬이 생겼어요",
@@ -152,17 +161,6 @@
         "메뉴에서 캐릭터 카드를 누르면 캐릭터 정보 창이 열려요(능력치 12칸, 기초 스탯 4칸, 전투력)",
         "HUD 편집에서 상단 바는 크기만, 파티창은 위치와 크기를 바꿀 수 있어요",
         "글자 간격을 디자이너 시안대로 조금 더 촘촘하게 맞췄어요"
-      ]
-    },
-    {
-      "date": "0.5.61",
-      "text": "스킬 2x2, 퀘스트 판 분리, 채팅 크기 조절을 넣었어요",
-      "details": [
-        "오른쪽 아래에 스킬 칸이 2x2(Z X / C V)와 궁극기 R로 나와요",
-        "퀘스트 판이 미니맵·지역 정보 판과 따로 움직이고 크기도 따로 바꿔요",
-        "HUD 편집에서 채팅 가로와 높이를 따로 늘리고 줄일 수 있어요",
-        "파티창에 전투력, 마나 바를 넣었고 채팅 탭이 전체·파티·귓속말·시스템으로 나뉘어요",
-        "글씨를 글꼴에 있는 크기에 맞춰 선명하게 그려요"
       ]
     }
   ]
