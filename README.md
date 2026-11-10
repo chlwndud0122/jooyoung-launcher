@@ -19,6 +19,7 @@
 | `serverAddress` | 서버 주소 (예: `play.example.com` 또는 `1.2.3.4:25565`). 비워두면 게임만 켜져요 |
 | `minecraftVersion` | 마인크래프트 버전 |
 | `mods` | Modrinth에서 받을 모드 목록 (Modrinth 주소의 이름 부분) |
+| `resourcePacks` | Modrinth에서 받아서 자동으로 켜 줄 리소스팩 목록 (아래일수록 우선). 런처 1.0.2부터 |
 
 ## 개발
 ```bash

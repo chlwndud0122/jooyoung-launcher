@@ -18,6 +18,8 @@ const RULES = {
   minecraftVersion: v => typeof v === 'string' && /^[0-9][0-9a-z.\-_]{0,30}$/i.test(v) && !v.includes('..'),
   fabricLoader: v => typeof v === 'string' && (v === 'latest' || /^[0-9][0-9a-z.+\-_]{0,30}$/i.test(v)) && !v.includes('..'),
   mods: v => Array.isArray(v) && v.length <= 100 && v.every(s => typeof s === 'string' && /^[a-z0-9_-]{1,64}$/i.test(s)),
+  // Modrinth에서 받아서 켜 줄 리소스팩 목록 (위에서 아래로 갈수록 우선순위가 높아요)
+  resourcePacks: v => Array.isArray(v) && v.length <= 20 && v.every(s => typeof s === 'string' && /^[a-z0-9_-]{1,64}$/i.test(s)),
   // 런처 "소식" 칸: 날짜와 짧은 글 (화면에는 글자로만 표시돼요)
   news: v =>
     Array.isArray(v) && v.length <= 12 &&

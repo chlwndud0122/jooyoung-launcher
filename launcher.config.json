@@ -26,7 +26,13 @@
     "ferrite-core",
     "entityculling",
     "immediatelyfast",
-    "dynamic-fps"
+    "dynamic-fps",
+    "entity-model-features",
+    "entitytexturefeatures"
+  ],
+  "resourcePacks": [
+    "fresh-animations",
+    "fa-player-extension"
   ],
   "customMods": [
     {
@@ -38,6 +44,15 @@
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "런처 1.0.2",
+      "text": "캐릭터·몬스터 움직임이 생생해져요",
+      "details": [
+        "사람·몬스터·동물·주민의 걷기·눈 깜빡임 같은 동작이 더 자연스러워져요(Fresh Animations)",
+        "런처가 알아서 받고 켜 줘요. 런처를 껐다 켜면 업데이트돼요",
+        "게임이 버벅이면 알려 주세요"
+      ]
+    },
     {
       "date": "0.5.80",
       "text": "지도 밑 정보 판 글자 조정",
@@ -143,14 +158,6 @@
       "details": [
         "조작키 창에서 키에 마우스를 올리면 키 모양 그대로 테두리가 생겨요",
         "HUD 편집 창의 점선 상자가 실제 HUD 크기에 맞고, 글씨가 밖으로 나오지 않아요"
-      ]
-    },
-    {
-      "date": "0.5.53",
-      "text": "HUD 숫자 크기를 다듬었어요",
-      "details": [
-        "레벨·체력·마나·핫바 숫자 크기를 줄였어요",
-        "레벨 숫자를 원 가운데에 맞추고 원 안쪽 선을 매끄럽게 했어요"
       ]
     }
   ]

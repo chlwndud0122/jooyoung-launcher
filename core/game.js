@@ -5,6 +5,7 @@ const path = require('path');
 const { Client } = require('minecraft-launcher-core');
 const { ensureJava } = require('./java');
 const { ensureFabric, syncMods } = require('./mods');
+const { syncResourcePacks, enableResourcePacks } = require('./resourcepacks');
 const { ensureServerEntries } = require('./servers');
 const { removeOldVersions } = require('./cleanup');
 
@@ -76,7 +77,11 @@ async function prepareAndLaunch({ root, config, auth, memoryGB = 'auto', servers
   report({ step: '모드 확인 중', progress: 0 });
   await syncMods(root, mc, config.mods || [], report, config.customMods || []);
 
+  report({ step: '리소스팩 확인 중', progress: 0 });
+  const packs = await syncResourcePacks(root, mc, config.resourcePacks || [], report);
+
   writeDefaultOptions(root, config);
+  enableResourcePacks(root, packs.packs, packs.old);
 
   // Free up space from older Minecraft versions and Java we no longer use.
   try {
