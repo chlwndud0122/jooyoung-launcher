@@ -87,7 +87,9 @@ h1 {
 .news::-webkit-scrollbar-track { background: transparent; }
 .news::-webkit-scrollbar-thumb { background: #4a5a85; border-radius: 4px; }
 .news::-webkit-scrollbar-thumb:hover { background: #6a7aa8; }
-.news[hidden], .news-btn[hidden] { display: none; }
+.news[hidden] { display: none; }
+/* 소식을 숨겨도 자리는 남겨요 (아래 줄이 3칸이라 빠지면 시작 버튼이 가운데로 와요) */
+.news-btn[hidden] { display: block; visibility: hidden; pointer-events: none; }
 .news h2 { margin: 0 0 6px; font-size: 14px; color: var(--gold); }
 .news ul { list-style: none; margin: 0; padding: 0; }
 .news li span { color: #7f8fb3; margin-right: 8px; }
