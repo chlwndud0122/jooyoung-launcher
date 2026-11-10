@@ -69,9 +69,9 @@ async function visibleServersFor(config, uuid) {
 }
 let lastConfig = null;
 let visibleServers = [];
-// art: 그림 ("test" = 시험 서버 그림), title: 큰 제목 ("" = 제목 없음, 없으면 serverName)
+// art: 그림 ("test" = 시험 서버 그림), title: 큰 제목 ("" = 제목 없음, 없으면 serverName), news: false = 소식 숨김
 const publicServers = () => visibleServers.map(s => ({ id: s.id, name: s.name, address: s.address,
-  art: typeof s.art === 'string' ? s.art : undefined, title: typeof s.title === 'string' ? s.title : undefined }));
+  art: typeof s.art === 'string' ? s.art : undefined, title: typeof s.title === 'string' ? s.title : undefined, news: s.news === false ? false : undefined }));
 function selectedServerId() {
   const want = readSettings().selectedServer;
   return visibleServers.some(s => s.id === want) ? want : visibleServers[0]?.id || null;

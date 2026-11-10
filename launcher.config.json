@@ -22,7 +22,8 @@
       "restricted": true,
       "art": "test",
       "title": "",
-      "customMods": false
+      "customMods": false,
+      "news": false
     }
   ],
   "accessUrl": "http://161.33.209.62:25580/access",

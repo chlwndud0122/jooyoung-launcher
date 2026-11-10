@@ -140,6 +140,10 @@ function renderServersInner() {
   const title = typeof cur?.title === 'string' ? cur.title : defaultTitle;
   $('server-name').textContent = title;
   document.querySelector('.hero-text').hidden = !title && $('subtitle').hidden;
+  // news: false 인 서버(하드코어 야생)는 소식을 안 보여요
+  const noNews = cur?.news === false;
+  $('btn-news').hidden = noNews;
+  if (noNews && !$('news').hidden) setNews(false);
   if (!servers.length) {
     const el = document.createElement('div');
     el.className = 'server-chip';
