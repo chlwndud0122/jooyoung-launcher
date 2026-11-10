@@ -139,11 +139,12 @@ function renderServersInner() {
   const art = document.querySelector('.art');
   art.classList.toggle('alt', cur?.art ? cur.art === 'test' : selectedServer === 'test');
   art.classList.toggle('hardcore', cur?.art === 'hardcore');
-  const title = typeof cur?.title === 'string' ? cur.title : defaultTitle;
+  // 들어갈 서버를 아직 모르면(로그인 전 등) 제목·소식을 안 보여요: 하드코어만 보이는 친구에게 히페리아가 먼저 뜨지 않게
+  const title = !cur ? '' : typeof cur.title === 'string' ? cur.title : defaultTitle;
   $('server-name').textContent = title;
   document.querySelector('.hero-text').hidden = !title && $('subtitle').hidden;
   // news: false 인 서버(하드코어 야생)는 소식을 안 보여요
-  const noNews = cur?.news === false;
+  const noNews = !cur || cur.news === false;
   $('btn-news').hidden = noNews;
   if (noNews && !$('news').hidden) setNews(false);
   if (!servers.length) {
