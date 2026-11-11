@@ -47,14 +47,25 @@
   ],
   "customMods": [
     {
-      "name": "jooyoung-server-mods-0.5.85.jar",
-      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.85.jar",
-      "sha1": "ce76c3c603287090b16798a75f5e19e49ea95993"
+      "name": "jooyoung-server-mods-0.5.87.jar",
+      "url": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/mods/jooyoung-server-mods-0.5.87.jar",
+      "sha1": "9da6626f8caff8e40182a6108732d7c320ffbc25"
     }
   ],
   "language": "ko_kr",
   "remoteConfigUrl": "https://raw.githubusercontent.com/chlwndud0122/jooyoung-launcher/main/launcher.config.json",
   "news": [
+    {
+      "date": "0.5.87",
+      "text": "아이템 설명 창이 새 모양이 됐어요",
+      "details": [
+        "히페리아 장비에 마우스를 올리면 등급 색 테두리의 새 설명 창이 떠요",
+        "레벨·공격력·공격 속도·힘 같은 능력치를 한눈에 볼 수 있어요",
+        "몬스터를 때리면 공격력·치명타·방어력이 실제로 적용돼요",
+        "높은 곳에서 떨어져도 다치지 않아요",
+        "지금은 시험 서버에서 먼저 써 볼 수 있어요"
+      ]
+    },
     {
       "date": "0.5.85",
       "text": "파티 나가기를 고쳤어요",
@@ -163,15 +174,6 @@
         "퀘스트 판이 시안 모양(접힘 한 줄, 펼침 목표 줄)으로 바뀌었고 시험용 퀘스트가 하나 들어가요",
         "별과 화살표 모양을 시안과 같은 방식으로 매끄럽게 다듬었어요",
         "궁극기 바깥 흰 빛을 없앴어요"
-      ]
-    },
-    {
-      "date": "0.5.64",
-      "text": "캐릭터 정보 창, 상단 바·파티창 조절, 글자 간격을 넣었어요",
-      "details": [
-        "메뉴에서 캐릭터 카드를 누르면 캐릭터 정보 창이 열려요(능력치 12칸, 기초 스탯 4칸, 전투력)",
-        "HUD 편집에서 상단 바는 크기만, 파티창은 위치와 크기를 바꿀 수 있어요",
-        "글자 간격을 디자이너 시안대로 조금 더 촘촘하게 맞췄어요"
       ]
     }
   ]
